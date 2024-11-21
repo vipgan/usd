@@ -30,8 +30,8 @@ jobs:
     # 运行脚本
     - name: Run Python Script
       env:
-        API_KEY: ${{ secrets.TS_TOKEN }}
+        API_KEY: ${{ secrets.API_KEY }}
         TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-        TELEGRAM_CHAT_ID: ${{ secrets.CHAT_ID }}
+        TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
       run: |
         python usd.py
