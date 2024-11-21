@@ -14,7 +14,4 @@ deactivate
 
 crontab -e
 
-tushare
-python-telegram-bot
-python-dotenv
-pytz
+
